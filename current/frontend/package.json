@@ -1,0 +1,58 @@
+{
+  "name": "frontend",
+  "version": "1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.6",
+    "@table-library/react-table-library": "^4.1.4",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "ag-grid-community": "^26.2.1",
+    "ag-grid-react": "^26.2.0",
+    "bootstrap": "^5.3.1",
+    "d3": "^7.8.5",
+    "d3-array": "^3.1.1",
+    "d3-axis": "^3.0.0",
+    "d3-brush": "^3.0.0",
+    "d3-scale": "^4.0.2",
+    "d3-scale-chromatic": "^3.0.0",
+    "d3-selection": "^3.0.0",
+    "d3-transition": "^3.0.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "react-simple-minimap": "^1.0.1",
+    "react-string-replace": "^1.1.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "proxy": "http://localhost:5000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

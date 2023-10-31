@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff2) format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff2) format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font: ColfaxAI;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.highlighted {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.highlighted-hover {
+  font-weight: bold;
+  /* font-size: larger; */
+  border: 0.2vh solid black;
+  background-color: rgba(128, 128, 128, 0.08);
+  box-sizing: border-box;
+  box-shadow: inset 0 -0.2vh 0 black;
+  filter: saturate(150%);
+  /* filter: blur(1vh); */
+}
+
+rect.highlighted-hover {
+  stroke: black;
+  stroke-width: 1;
+  opacity: 0.8;
+}
+
+
+.highlighted-dim {
+  font-size: smaller;
+}
+
+.ver-no:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+.ver-edit:hover {
+  color: cornflowerblue;
+  transform: scale(1.2);
+}
+
+.custom-button {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  /* border: 1px solid darkgray; */
+}
+
+.custom-button:hover {
+  box-shadow: 1px 1px gray;
+}
+
+.settings-table {
+  font-size: 1.5vh;
+  width: 100%;
+}
+
+.settings-table tr {
+  line-height: 2vh;
+  width: 100%;
+}
